@@ -1,0 +1,106 @@
+.timelineSection {
+  margin: 3rem 0;
+  text-align: center;
+  padding: 0 1rem;
+  background: transparent;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  color: #003344;
+}
+
+.timelineWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.timelineItem {
+  flex-shrink: 0;
+  width: 220px;
+  max-width: 90vw;
+  padding: 1rem;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  scroll-snap-align: start;
+  position: relative;
+  text-align: center;
+}
+
+.year {
+  color: #005577;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.dot {
+  position: relative;
+  z-index: 2;
+  width: 12px;
+  height: 12px;
+  background-color: #005577;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+
+.dot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -110px;
+  width: 100px;
+  height: 2px;
+  background-color: #005577;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.dot::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -110px;
+  width: 100px;
+  height: 2px;
+  background-color: #005577;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.timelineItem h3 {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #111;
+}
+
+.timelineItem p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .timelineWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timelineItem {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .dot::before,
+  .dot::after {
+    display: none;
+  }
+}

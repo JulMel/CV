@@ -1,0 +1,78 @@
+.wrapper {
+  margin: 4rem 0;
+  text-align: center;
+  padding: 0 1rem;
+  background: transparent;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #003344;
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .image {
+    height: 250px;
+  }
+}
+
+.content {
+  padding: 1.5rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content h3 {
+  font-size: 1.3rem;
+  color: #003344;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  background: #005577;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.arrow:hover {
+  background: #003d4d;
+}

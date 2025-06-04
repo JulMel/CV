@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header a {
+  color: #005577;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header a:hover {
+  color: #003344;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #003344;
+  color: white !important;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
