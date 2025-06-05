@@ -3,7 +3,7 @@ import styles from "../styles/Projects.module.css";
 import Header from "./header";
 import ProjectFilter from "./components/projectFilter";
 import ProjectCard from "./components/projectCard";
-import projects from "./components/projectsData";
+import projects from "../data/projectsData";
 
 export default function Projects() {
   const [selected, setSelected] = useState("all");
