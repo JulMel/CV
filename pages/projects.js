@@ -18,9 +18,11 @@ export default function Projects() {
       <Header />
       <ProjectFilter selected={selected} setSelected={setSelected} />
       <div className={styles.grid}>
-        {filteredProjects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+        {filteredProjects
+          .filter((project) => project && project.image) // 💡 ochrana proti chybám
+          .map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
       </div>
     </section>
   );
