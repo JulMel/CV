@@ -12,7 +12,7 @@ export default function Home() {
         <div className={styles.heroText}>
           <h1 className={styles.heroTitle}>Ahoj, jsem Julie 👋</h1>
           <p className={styles.subtitle}>
-            Tento web vznikl jako součást mojí cesty do světa informačních
+            Tento web vznikl jako součást mé cesty do světa informačních
             technologií.
           </p>
           <Link href="/projects" className={styles.ctaButton}>
@@ -48,7 +48,7 @@ export default function Home() {
           <p>
             Cílem tohoto webu není ukázat dokonalý kód, ale cestu, jak se k němu
             krok za krokem přibližuju. Najdete tu něco málo o mně, moje první
-            programovací okusy, malé úspěchy i věci, které bych za rok možná
+            programovací pokusy, malé úspěchy i věci, které bych za rok možná
             přepsala úplně jinak.
           </p>
 
