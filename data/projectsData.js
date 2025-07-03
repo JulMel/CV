@@ -97,6 +97,16 @@ const projectsData = [
     link: "https://github.com/JulMel/Nakupni-seznam",
   },
   {
+    title: "Vánoční cukroví",
+    image: "/react/React11-Cukrovi.png",
+    description:
+      "Webová aplikace s recepty na cukroví a objednávkovým formulářem.",
+    tech: "react",
+    details:
+      "Projekt vznikl v rámci studia TypeScriptu. Cílem bylo vytvořit plně funkční aplikaci s komponentovou strukturou v Reactu pomocí TypeScriptu. Využila jsem: typování props a stavů, použití interface a type pro popis datových struktur, a další.",
+    link: "https://github.com/JulMel/Cukrovi",
+  },
+  {
     title: "Kalkulačka",
     image: "/react-native/kalkulačka1.png",
     description:
