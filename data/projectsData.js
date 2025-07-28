@@ -107,6 +107,16 @@ const projectsData = [
     link: "https://github.com/JulMel/Cukrovi",
   },
   {
+    title: "Plyšová zvířátka",
+    image: "/react/React12-Plysaci.png",
+    description:
+      "Webová aplikace, která slouží k prohlížení kolekce plyšových zvířátek a jejich filtrování podle názvu.",
+    tech: "react",
+    details:
+      "Uživatel může napsat hledané písmeno nebo slovo a aplikace zobrazí pouze ta zvířátka, jejichž název odpovídá. Projekt vznikl jako cvičení v rámci studia Reactu a TypeScriptu.  Cílem bylo procvičit si typování dat, práci se stavem (`useState`, `useEffect`) a základní filtraci dat.",
+    link: "https://github.com/JulMel/Plysaci",
+  },
+  {
     title: "Kalkulačka",
     image: "/react-native/kalkulačka1.png",
     description:
