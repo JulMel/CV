@@ -80,7 +80,7 @@ const projectsData = [
     title: "Měsíce v roce",
     image: "/react/React6-Kalendář.png",
     description:
-      "Tato aplikace zobrazuje jednotlivé měsíce roztříděné podle ročních období. Součástí stránky je sekce FAQ, jejíž komponenta Question byla otestována pomocí Jest a React Testing Library.",
+      "Tato aplikace zobrazuje jednotlivé měsíce roztříděné podle ročních období. Součástí stránky je sekce FAQ.",
     tech: "react",
     details:
       "V rámci tohoto projektu jsem zúročila znalosti z předchozích aplikací a zároveň jsem si vyzkoušela generování obrázků pomocí AI. Projekt obsahuje automatizovaný unit test komponenty Question pomocí knihoven Jest a React Testing Library.",
