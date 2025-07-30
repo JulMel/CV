@@ -108,7 +108,7 @@ const projectsData = [
   },
   {
     title: "Plyšová zvířátka",
-    image: "/react/React12-Plysaci.png",
+    image: "/react/React12-Plyšáci.png",
     description:
       "Webová aplikace, která slouží k prohlížení kolekce plyšových zvířátek a jejich filtrování podle názvu.",
     tech: "react",
